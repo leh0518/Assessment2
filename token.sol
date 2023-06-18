@@ -1,9 +1,8 @@
 pragma solidity 0.8.18;
 
 contract MyToken {
-    event LogString(string message);
     string public tokenName = "META";
-    string public tokenAbbrv = "MTA";
+    string public tokenAbbrv = "M";
     uint public totalSupply = 0;
     mapping(address => uint) public balances;
 
@@ -18,8 +17,5 @@ contract MyToken {
             balances[_address] -= _value;
         }
     }
-    
-    function logTransactionID() public {
-        emit LogString(transactionID);
-    }
+
 }
