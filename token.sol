@@ -2,9 +2,8 @@ pragma solidity 0.8.18;
 
 contract MyToken {
     event LogString(string message);
-    string public transactionID = "7fG3R9d2Kw";
-    string public tokenName = "KANSHI";
-    string public tokenAbbrv = "KSH";
+    string public tokenName = "META";
+    string public tokenAbbrv = "MTA";
     uint public totalSupply = 0;
     mapping(address => uint) public balances;
 
