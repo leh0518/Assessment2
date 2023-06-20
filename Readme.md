@@ -8,9 +8,9 @@ This is a simple ERC20 token contract named `MyToken`. It allows for the creatio
 
 ## Contract Variables
 
-- `tokenName`: A public string variable that represents the name of the token. In this contract, it is set to "KANSHI".
+- `tokenName`: A public string variable that represents the name of the token. In this contract, it is set to "TOKEN".
 
-- `tokenAbbrv`: A public string variable that represents the abbreviation of the token. In this contract, it is set to "KSH".
+- `tokenAbbrv`: A public string variable that represents the abbreviation of the token. In this contract, it is set to "TKN".
 
 - `totalSupply`: A public unsigned integer variable that stores the total supply of tokens. It is initialized to 0 and can be increased when new tokens are minted.
 
